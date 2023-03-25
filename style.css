@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    padding: 25px 0 !important;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top-nav-collapse{
+    background-color: black !important;
+    padding: 0.75rem !important;
+}
+
+.landing-div{
+    background: url(./images/bg-image.jpg) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.btn{
+    border-radius: 50px;
+}
+
+.landing-wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+.landing-wrapper h1{
+    font-size: 80px;
+}
+
+.text-purple{
+    color: purple !important;
+}
+
+.text-yellow{
+    color: yellow !important;
+}
+
+/* Tour Image Section */
+.tour-image{
+    border-radius: 10px;
+    box-shadow: 0 15px 15px black;
+}
+/* Destination Card Section */
+
+.dest-card{
+    border-radius: 10px !important;
+    color: white;
+    
+}
+
+.dest-img{
+     border-radius: 10px !important;
+     position: relative;
+}
+
+.dest-card-title{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.dest-card-info h4{
+    margin-bottom: 0;
+}
+
+.dest-card-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 50px 50px 0;
+    width: 50%;
+    transition: all 0.5s;
+}
+
+.dest-card:hover .dest-card-info{
+    width: 60%;
+    background-color: orangered;
+}
+
+/* Location Section */
+
+.location-card{
+    box-shadow: 0 10px 10px black;
+    border-radius: 10px;
+}
+
+.location-img{
+    position: relative;
+}
+.location-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 250, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+/* Main Footer */
+.main-footer{
+    background: url(./images/footer-image.jpg) no-repeat scroll center;
+    background-size: cover;
+    color: white;
+}
+
+.footer-wrapper{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+@media screen and (max-width : 500px) {
+
+    .navbar-collapse{
+        text-align: center !important;
+    }
+
+    .navbar-collapse .btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .form-section input, select{
+        width: 100% !important;
+        background-color: lightpink !important;
+        
+    }
+    .form-section .btn{
+        width: 100% !important;
+        background-color: orangered !important;
+        
+    }
+
+    .form-section1{
+        margin-bottom: 20px;
+    }
+    
+    .btn-general{
+        width: 100% !important;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+
